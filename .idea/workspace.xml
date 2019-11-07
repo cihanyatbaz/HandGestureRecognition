@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="db1e7323-ed23-45b7-a66e-68a0c6a81185" name="Default Changelist" comment="initial">
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/.idea/caches/gradle_models.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/Handy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/androidTest/java/mobile/handygestures/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/assets/gesture_labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/assets/labels.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/assets/model.tflite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/java/mobile/handygestures/AutoDetection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/java/mobile/handygestures/Gallery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/java/mobile/handygestures/Help.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/java/mobile/handygestures/ImageClassifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/java/mobile/handygestures/ImageClassifierFloatInception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/java/mobile/handygestures/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/java/mobile/handygestures/Preview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/java/mobile/handygestures/Recognition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/jniLibs/arm64-v8a/libopencv_java3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/jniLibs/armeabi-v7a/libopencv_java3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/jniLibs/armeabi/libopencv_java3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/jniLibs/mips/libopencv_java3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/jniLibs/mips64/libopencv_java3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/jniLibs/x86/libopencv_java3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/jniLibs/x86_64/libopencv_java3.so" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/drawable/a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/drawable/b.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/drawable/back_ground.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/drawable/c.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/drawable/ic_launcher_background.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/drawable/img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/drawable/l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/drawable/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/drawable/t.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/drawable/w.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/layout/activity_gallery.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/layout/activity_help.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/layout/activity_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/layout/activity_preview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/app/src/test/java/mobile/handygestures/ExampleUnitTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/gesture-recognition-app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/aapt_friendly_merged_manifests/debug/aapt/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/aapt_friendly_merged_manifests/debug/processDebugManifest/aapt/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/annotation_processor_list/debug/annotationProcessors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/annotation_processor_list/debug/javaPreCompileDebug/annotationProcessors.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/compile_library_classes/debug/classes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/incremental/compileDebugAidl/dependency.store" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/incremental/packageDebugAssets/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/incremental/packageDebugResources/merged.dir/values/values.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/incremental/packageDebugResources/merger.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/intermediate-jars/debug/classes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/intermediate-jars/debug/res.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/AsyncServiceHelper$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/AsyncServiceHelper$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/AsyncServiceHelper$3$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/AsyncServiceHelper$3$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/AsyncServiceHelper$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/AsyncServiceHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/BaseLoaderCallback$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/BaseLoaderCallback$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/BaseLoaderCallback$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/BaseLoaderCallback$4.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/BaseLoaderCallback$5.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/BaseLoaderCallback$6.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/BaseLoaderCallback$7.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/BaseLoaderCallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/Camera2Renderer$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/Camera2Renderer$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/Camera2Renderer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/CameraBridgeViewBase$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/CameraBridgeViewBase$CvCameraViewFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/CameraBridgeViewBase$ListItemAccessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/CameraBridgeViewBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/CameraGLRendererBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/CameraGLSurfaceView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/CameraRenderer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/FpsMeter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/InstallCallbackInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/JavaCamera2View$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/JavaCamera2View$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/JavaCamera2View$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/JavaCamera2View$JavaCamera2Frame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/JavaCamera2View.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/JavaCameraView$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/JavaCameraView$CameraWorker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/JavaCameraView$JavaCameraFrame.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/JavaCameraView$JavaCameraSizeAccessor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/JavaCameraView.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/LoaderCallbackInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/OpenCVLoader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/StaticHelper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/android/Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/calib3d/Calib3d.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/calib3d/StereoBM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/calib3d/StereoMatcher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/calib3d/StereoSGBM.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/engine/OpenCVEngineInterface$Stub$Proxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/engine/OpenCVEngineInterface$Stub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/engine/OpenCVEngineInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/AKAZE.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/AgastFeatureDetector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/BFMatcher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/BOWImgDescriptorExtractor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/BOWKMeansTrainer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/BOWTrainer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/BRISK.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/DescriptorExtractor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/DescriptorMatcher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/FastFeatureDetector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/Feature2D.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/FeatureDetector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/Features2d.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/FlannBasedMatcher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/GFTTDetector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/KAZE.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/MSER.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/ORB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/features2d/Params.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/imgcodecs/Imgcodecs.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/imgproc/CLAHE.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/imgproc/Imgproc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/imgproc/LineSegmentDetector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/imgproc/Moments.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/imgproc/Subdiv2D.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/objdetect/BaseCascadeClassifier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/objdetect/CascadeClassifier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/objdetect/HOGDescriptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/objdetect/Objdetect.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/video/BackgroundSubtractorMOG2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/video/DenseOpticalFlow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/video/DualTVL1OpticalFlow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/video/FarnebackOpticalFlow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/video/SparseOpticalFlow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/video/SparsePyrLKOpticalFlow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/videoio/VideoCapture.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/videoio/VideoWriter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes/org/opencv/videoio/Videoio.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/library_java_res/debug/res.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/library_manifest/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/merged_manifests/debug/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/merged_manifests/debugAndroidTest/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/merged_manifests/debugAndroidTest/output.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/packaged_res/debug/values/values.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/runtime_library_classes/debug/classes.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/symbols/debug/R.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/openCV/build/intermediates/transforms/stripDebugSymbol/debug/__content__.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gesture-recognition-app/settings.gradle" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/HandGestureProject.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gesture-recognition-app/app/src/main/java/mobile/handygestures/AutoDetection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-561" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gesture-recognition-app/app/src/main/java/mobile/handygestures/Help.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/gesture-recognition-app/app/src/main/java/mobile/handygestures/ImageClassifier.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2346" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/gesture-recognition-app" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-15" />
+    <option name="y" value="-15" />
+    <option name="width" value="1945" />
+    <option name="height" value="1045" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HandGestureProject" type="1abcf292:AndroidViewProjectNode" />
+              <item name="HandGestureProject" type="e9137016:NonAndroidModuleNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HandGestureProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HandGestureProject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HandGestureProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HandGestureProject" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HandGestureProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HandGestureProject" type="462c0819:PsiDirectoryNode" />
+              <item name="gesture-recognition-app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HandGestureProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HandGestureProject" type="462c0819:PsiDirectoryNode" />
+              <item name="gesture-recognition-app" type="462c0819:PsiDirectoryNode" />
+              <item name=".gradle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HandGestureProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HandGestureProject" type="462c0819:PsiDirectoryNode" />
+              <item name="gesture-recognition-app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HandGestureProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HandGestureProject" type="462c0819:PsiDirectoryNode" />
+              <item name="gesture-recognition-app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="build" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HandGestureProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HandGestureProject" type="462c0819:PsiDirectoryNode" />
+              <item name="gesture-recognition-app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HandGestureProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HandGestureProject" type="462c0819:PsiDirectoryNode" />
+              <item name="gesture-recognition-app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HandGestureProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HandGestureProject" type="462c0819:PsiDirectoryNode" />
+              <item name="gesture-recognition-app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HandGestureProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HandGestureProject" type="462c0819:PsiDirectoryNode" />
+              <item name="gesture-recognition-app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HandGestureProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HandGestureProject" type="462c0819:PsiDirectoryNode" />
+              <item name="gesture-recognition-app" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="handygestures" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../eggTimer" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db1e7323-ed23-45b7-a66e-68a0c6a81185" name="Default Changelist" comment="" />
+      <created>1573113209087</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573113209087</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.33489934" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Build Variants" order="4" side_tool="true" />
+      <window_info id="Image Layers" order="5" />
+      <window_info id="Designer" order="6" />
+      <window_info id="Resources Explorer" order="7" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Logcat" order="1" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Android Profiler" order="5" show_stripe_button="false" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+    </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/HandGestureProject.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gesture-recognition-app/app/src/main/java/mobile/handygestures/AutoDetection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gesture-recognition-app/app/src/main/java/mobile/handygestures/Help.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gesture-recognition-app/app/src/main/java/mobile/handygestures/ImageClassifier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2346" />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>HandGestureProject</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
