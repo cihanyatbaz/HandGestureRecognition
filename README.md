@@ -6,7 +6,7 @@
 
 
 
-**The idea of the project:**
+### **The idea of the project:**
 
 * Modern smartphones are becoming more and more powerful and with that come many new possibilities of how they can improve your life, by applications that could only run on more powerful devices like PCs. We decided to use that by creating a mobile image processing app that uses neural networks to classify real-time images.
 
@@ -16,7 +16,7 @@
 
 
 
-**Training**
+### **Training**
 
 * We used Tensorflow Lite to train the hand gestures.
 
@@ -24,7 +24,8 @@
 
    
 
-   
+-----------------------------------------------------------------------------------------------------------------------------------
+
    
 * And this is the app screen when we try to detect the hand gestures.
 
