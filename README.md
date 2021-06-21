@@ -15,7 +15,7 @@
 * Next came the target group. We have decided to bring forth a social group that can uniquely benefit from this kind of technology, the Deaf Community. For years they have used hand shapes, positions, and movements to communicate and express ideas. But unfortunately, not everybody can "hear" them. Applications like ours bring us closer to the rest of society. Our aim became to reduce the difficulties experienced by people with disabilities while communicating. Using defined hand gestures, our app can detect them, translate them into texts and then vocalize these texts. In the end, our goal is to provide these people with a more comfortable form of communication with non-sign language speaking people, by using gestures that are natural to them.
 
 
-
+ 
 
 ### **Training**
 
